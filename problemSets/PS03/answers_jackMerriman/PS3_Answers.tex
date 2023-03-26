@@ -1,0 +1,160 @@
+\documentclass[12pt,letterpaper]{article}
+\usepackage{graphicx,textcomp}
+\usepackage{natbib}
+\usepackage{setspace}
+\usepackage{fullpage}
+\usepackage{color}
+\usepackage[reqno]{amsmath}
+\usepackage{amsthm}
+\usepackage{fancyvrb}
+\usepackage{amssymb,enumerate}
+\usepackage[all]{xy}
+\usepackage{endnotes}
+\usepackage{lscape}
+\newtheorem{com}{Comment}
+\usepackage{float}
+\usepackage{hyperref}
+\newtheorem{lem} {Lemma}
+\newtheorem{prop}{Proposition}
+\newtheorem{thm}{Theorem}
+\newtheorem{defn}{Definition}
+\newtheorem{cor}{Corollary}
+\newtheorem{obs}{Observation}
+\usepackage[compact]{titlesec}
+\usepackage{dcolumn}
+\usepackage{tikz}
+\usetikzlibrary{arrows}
+\usepackage{multirow}
+\usepackage{xcolor}
+\newcolumntype{.}{D{.}{.}{-1}}
+\newcolumntype{d}[1]{D{.}{.}{#1}}
+\definecolor{light-gray}{gray}{0.65}
+\usepackage{url}
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+\lstset{style=mystyle}
+\newcommand{\Sref}[1]{Section~\ref{#1}}
+\newtheorem{hyp}{Hypothesis}
+
+\title{Problem Set 3}
+\date{Submitted: March 26, 2023}
+\author{Jack Merriman}
+
+
+\begin{document}
+	\maketitle
+\section*{Question 1} 
+
+\noindent \textbf{Part 1:}\\
+\lstinputlisting[language = R, firstline=13, lastline=36]{PS03.R}
+\newpage
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Sun, Mar 26, 2023 - 15:40:10
+\begin{table}[!htbp] \centering   \caption{}   \label{}
+	\begin{tabular}{@{\extracolsep{5pt}}lcc} \\[-1.8ex]\hline \hline \\[-1.8ex]  & \multicolumn{2}{c}{\textit{Dependent variable:}} \\ \cline{2-3} \\[-1.8ex] & negative & positive \\ \\[-1.8ex] & (1) & (2)\\ \hline \\[-1.8ex]  OIL & 4.784 & 4.576 \\   & (6.885) & (6.885) \\   & & \\  REG & 1.379$^{*}$ & 1.769$^{**}$ \\   & (0.769) & (0.767) \\   & & \\  Constant & 3.805$^{***}$ & 4.534$^{***}$ \\   & (0.271) & (0.269) \\   & & \\ \hline \\[-1.8ex] Akaike Inf. Crit. & 4,690.770 & 4,690.770 \\ \hline \hline \\[-1.8ex] \textit{Note:}  & \multicolumn{2}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\
+\end{tabular}
+\end{table} 
+
+\begin{BVerbatim}
+	
+	
+Predicted Values
+                       no change  negative  positive
+<50%, non-democracy 7.191671e-03 0.3232070 0.6696013
+>50%, non-democracy 6.934296e-05 0.3726529 0.6272778
+<50%, democracy     1.378186e-03 0.2460217 0.7526001
+>50%, democracy     1.344048e-05 0.2869004 0.7130862
+\end{BVerbatim}
+\clearpage
+
+\noindent \textit{OIL:}\\
+\noindent A country having an oil to total exports ratio $>50\%$ will see an average increase of $4.784$ in the log odds of having negative economic growth vs. no economic growth, and an average increase of $4.576$ in the log odds of having positive economic growth vs. no economic growth compared to a  country with an oil to exports ratio $<50\%$, holding all other variables constant.\\
+
+\noindent \textit{REG:}\\
+\noindent A democratic country will see an average increase of $1.379$ in the log odds of having negative economic growth vs. no economic growth, and an average increase of $1.769$ in the log odds of having positive economic growth vs. no economic growth compared to a non-democratic country, holding all other variables constant.\\
+
+\noindent \textit{Constant:}\\
+\noindent A non-democratic country with an oil to total exports ratio $<50\%$ has an average log odds of $3.805$ of having negative economic growth vs. no economic growth, and an average log odds of $4.534$ of having positive economic growth vs. no economic growth.\\
+
+\noindent \textbf{Part 2:}\\
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Sun, Mar 26, 2023 - 15:47:29
+\begin{table}[!htbp] \centering   \caption{}   \label{} \begin{tabular}{@{\extracolsep{5pt}}lc} \\[-1.8ex]\hline \hline \\[-1.8ex]  & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ \cline{2-2} \\[-1.8ex] & oGDPWdiff \\ \hline \\[-1.8ex]  OIL & $-$0.199$^{*}$ \\   & (0.116) \\   & \\  REG & 0.398$^{***}$ \\   & (0.075) \\   & \\ \hline \\[-1.8ex] Observations & 3,721 \\ \hline \hline \\[-1.8ex] \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ \end{tabular} \end{table} 
+\clearpage
+\lstinputlisting[language = R, firstline = 54, lastline=64]{PS03.R}
+\begin{BVerbatim}
+	             negative   no change  positive
+<50%, non-democracy 0.3249362 0.004555476 0.6705083
+>50%, non-democracy 0.3699431 0.004836151 0.6252207
+<50%, democracy     0.2442235 0.003839727 0.7519368
+>50%, democracy     0.2827332 0.004215307 0.7130515
+\end{BVerbatim}
+
+\vspace{0.75cm}
+\noindent \textit{OIL:}\\
+\noindent A country having an oil to total exports ratio $>50\%$ will see an average decrease of $0.199$ in the log odds of moving up an ordinal category from negative compared to a country with an oil to exports ratio $<50\%$, holding all other variables constant.\\
+
+\noindent \textit{REG:}\\
+\noindent A democratic country will see an average increase of $0.398$ in the log odds of moving up an ordinal category from negative compared to a non-democratic country, holding all other variables constant.\\
+
+\newpage
+\section*{Question 2}
+\vspace{.25cm}
+\noindent\textit{(a)}\\
+
+\lstinputlisting[language = R, firstline = 70, lastline=75]{PS03.R}
+
+% Table created by stargazer v.5.2.3 by Marek Hlavac, Social Policy Institute. E-mail: marek.hlavac at gmail.com
+% Date and time: Sun, Mar 26, 2023 - 15:49:06
+\begin{table}[!htbp] \centering   \caption{}   \label{} \begin{tabular}{@{\extracolsep{5pt}}lc} \\[-1.8ex]\hline \hline \\[-1.8ex]  & \multicolumn{1}{c}{\textit{Dependent variable:}} \\ \cline{2-2} \\[-1.8ex] & PAN.visits.06 \\ \hline \\[-1.8ex]  competitive.district & $-$0.081 \\   & (0.171) \\   & \\  marginality.06 & $-$2.080$^{***}$ \\   & (0.117) \\   & \\  PAN.governor.06 & $-$0.312$^{*}$ \\   & (0.167) \\   & \\  Constant & $-$3.810$^{***}$ \\   & (0.222) \\   & \\ \hline \\[-1.8ex] Observations & 2,407 \\ Log Likelihood & $-$645.606 \\ Akaike Inf. Crit. & 1,299.213 \\ \hline \hline \\[-1.8ex] \textit{Note:}  & \multicolumn{1}{r}{$^{*}$p$<$0.1; $^{**}$p$<$0.05; $^{***}$p$<$0.01} \\ \end{tabular} \end{table} 
+
+\noindent The coefficient associated with the competitive district is very small at $-0.081$, the \texttt{summary()} function in R outputs a Z test statistic for the competitive district coefficient of $-0.477$ which equates to a p-value of $0.6336$, which is not statistically significant at any reasonable level of confidence, therefore we can conclude that there is no evidence that PAN presidential candidates visit swing districts more frequently.\\
+
+\newpage
+\noindent\textit{(b)}\\
+\noindent We first exponentiate our coefficients to interpret them:
+\lstinputlisting[language = R, firstline =78, lastline=78]{PS03.R}
+\begin{BVerbatim}
+(Intercept) competitive.district       marginality.06      PAN.governor.06
+ 0.02214298           0.92186932           0.12491227           0.73228985 
+\end{BVerbatim}
+
+\vspace{0.75cm}
+\noindent \texttt{marginality.06:}\\
+\noindent An increase of one in the marginality score (poverty measure) in a district is associated with a decrease in the expected number of visits by the PAN candidate to the district by a multiplicative factor of $0.124$, holding all other variables constant.\\
+
+\noindent \texttt{PAN.governor.06:}\\
+\noindent Districts with PAN governors are associated with an average decrease in the expected number of visits by the PAN candidate to the district by a multiplicative factor of $0.73$, relative to districts without a PAN governor, holding all other variables constant.\\
+
+\noindent\textit{(c)}
+\lstinputlisting[language = R, firstline=84,lastline=86]{PS03.R}
+$\lambda = 0.002$\\
+\noindent There is a mean expected visits number of $0.002$ which implies it is unlikely that a PAN candidate would visit this district.
+
+
+\end{document}
