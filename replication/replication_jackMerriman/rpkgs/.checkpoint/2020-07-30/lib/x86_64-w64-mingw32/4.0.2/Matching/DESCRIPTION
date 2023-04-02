@@ -1,0 +1,27 @@
+Package: Matching
+Version: 4.9-7
+Date: 2020-02-05
+Title: Multivariate and Propensity Score Matching with Balance
+        Optimization
+Author: Jasjeet Singh Sekhon <sekhon@berkeley.edu>
+Maintainer: Jasjeet Singh Sekhon <sekhon@berkeley.edu>
+Description: Provides functions for multivariate and propensity score matching 
+             and for finding optimal balance based on a genetic search algorithm. 
+             A variety of univariate and multivariate metrics to
+             determine if balance has been obtained are also provided.
+Depends: R (>= 2.6.0), MASS (>= 7.2-1), graphics, grDevices, stats
+Suggests: parallel, rgenoud (>= 2.12), rbounds
+License: GPL-3
+URL: http://sekhon.berkeley.edu/matching
+NeedsCompilation: yes
+Packaged: 2020-02-05 23:38:07 UTC; user
+Repository: CRAN
+Date/Publication: 2020-02-06 12:30:02 UTC
+Built: R 4.0.2; x86_64-w64-mingw32; 2020-07-26 01:17:12 UTC; windows
+Archs: i386, x64
+RemoteType: standard
+RemotePkgRef: Matching
+RemoteRef: Matching
+RemoteRepos: https://mran.microsoft.com/snapshot/2020-07-30
+RemotePkgPlatform: windows
+RemoteSha: 4.9-7
