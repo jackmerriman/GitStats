@@ -1,0 +1,5 @@
+"player","ov","var","x","coef","se","lwr","upr","n","df","p","star"
+"present","acled_event_type1_dif3","lose","lose",0.88,0.35,0.19,1.57,23138,23136,0.01,"*"
+"present","acled_event_type1_dif3","win","win",1.2,0.43,0.37,2.04,22232,22230,0,"*"
+"absent","acled_event_type1_dif3","lose","lose",0.27,0.28,-0.28,0.82,12343,12341,0.33,""
+"absent","acled_event_type1_dif3","win","win",-0.48,0.33,-1.13,0.16,11801,11799,0.14,""

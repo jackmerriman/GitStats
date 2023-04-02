@@ -1,0 +1,7 @@
+"ov","var","x","coef","se","lwr","upr","n","df","p","star"
+"acled_event_type1_africa_dif3","lose","lose",-0.67,0.55,-1.76,0.41,35481,35479,0.22,""
+"scad_protest_africa_dif3","lose","lose",-1.22,0.79,-2.77,0.32,31788,31786,0.12,""
+"scad_protest_america_dif3","lose","lose",-0.68,0.8,-2.24,0.88,31788,31786,0.39,""
+"acled_event_type1_africa_dif3","win","win",-0.17,0.54,-1.23,0.89,34033,34031,0.75,""
+"scad_protest_africa_dif3","win","win",-1.13,0.92,-2.93,0.67,30689,30687,0.22,""
+"scad_protest_america_dif3","win","win",0.38,0.83,-1.24,2,30689,30687,0.64,""

@@ -1,0 +1,13 @@
+"ov","var","subset","x","coef","se","lwr","upr","n","df","p","star"
+"acled_event_type1_dif3","lose","Regular
+season","lose",0.62,0.26,0.12,1.12,34423,34421,0.02,"*"
+"acled_event_type1_dif3","lose","CL
+(Group stage)","lose",0.66,1.6,-2.48,3.79,733,731,0.68,""
+"acled_event_type1_dif3","lose","CL
+(Knockout)","lose",5.86,1.55,2.81,8.9,325,323,0,"*"
+"acled_event_type1_dif3","win","Regular
+season","win",0.58,0.28,0.03,1.13,32952,32950,0.04,"*"
+"acled_event_type1_dif3","win","CL
+(Group stage)","win",1.33,1.4,-1.43,4.09,761,759,0.34,""
+"acled_event_type1_dif3","win","CL
+(Knockout)","win",3.48,2.97,-2.35,9.32,320,318,0.24,""

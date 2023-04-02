@@ -1,0 +1,45 @@
+"fe","ps","ov","var","x","coef","se","lwr","upr","n","df","p","star"
+"Player
+FE","Player-specific FEs","acled_event_type1_dif3","lose","lose",0.66,0.26,0.13,1.19,35481,39,0.02,"*"
+"Player
+FE","Player-specific FEs","acled_event_type1_dif3","win","win",0.64,0.31,0.01,1.28,34033,39,0.05,"*"
+"Year
+FE","Time FEs","acled_event_type1_dif3","lose","lose",0.66,0.25,0.17,1.15,35481,35465,0.01,"*"
+"Year
+FE","Time FEs","acled_event_type1_dif3","win","win",0.62,0.28,0.07,1.17,34033,34017,0.03,"*"
+"Month
+FE","Time FEs","acled_event_type1_dif3","lose","lose",0.66,0.25,0.18,1.15,35481,35468,0.01,"*"
+"Month
+FE","Time FEs","acled_event_type1_dif3","win","win",0.63,0.3,0.05,1.21,34033,34020,0.03,"*"
+"Week
+FE","Time FEs","acled_event_type1_dif3","lose","lose",0.69,0.25,0.19,1.18,35481,35433,0.01,"*"
+"Week
+FE","Time FEs","acled_event_type1_dif3","win","win",0.64,0.29,0.08,1.21,34033,33985,0.03,"*"
+"Day of the Week
+FE","Time FEs","acled_event_type1_dif3","lose","lose",0.66,0.23,0.2,1.12,35481,35473,0,"*"
+"Day of the Week
+FE","Time FEs","acled_event_type1_dif3","win","win",0.6,0.29,0.03,1.18,34033,34025,0.04,"*"
+"All time
+FEs","Time FEs","acled_event_type1_dif3","lose","lose",0.68,0.24,0.2,1.16,35481,35402,0.01,"*"
+"All time
+FEs","Time FEs","acled_event_type1_dif3","win","win",0.64,0.28,0.08,1.19,34033,33954,0.02,"*"
+"Year
+FE","Player-specific FEs","acled_event_type1_dif3","lose","lose",0.82,0.25,0.32,1.31,35481,39,0,"*"
+"Year
+FE","Player-specific FEs","acled_event_type1_dif3","win","win",0.62,0.34,-0.07,1.31,34033,39,0.08,"."
+"Month
+FE","Player-specific FEs","acled_event_type1_dif3","lose","lose",0.79,0.31,0.16,1.43,35481,39,0.02,"*"
+"Month
+FE","Player-specific FEs","acled_event_type1_dif3","win","win",0.79,0.33,0.12,1.46,34033,39,0.02,"*"
+"Week
+FE","Player-specific FEs","acled_event_type1_dif3","lose","lose",0.92,0.46,-0.02,1.86,35481,39,0.05,"."
+"Week
+FE","Player-specific FEs","acled_event_type1_dif3","win","win",0.81,0.31,0.19,1.42,34033,39,0.01,"*"
+"Day of the Week
+FE","Player-specific FEs","acled_event_type1_dif3","lose","lose",0.69,0.26,0.17,1.22,35481,39,0.01,"*"
+"Day of the Week
+FE","Player-specific FEs","acled_event_type1_dif3","win","win",0.65,0.29,0.07,1.24,34033,39,0.03,"*"
+"All time
+FEs","Player-specific FEs","acled_event_type1_dif3","lose","lose",0.75,0.53,-0.33,1.82,35481,39,0.17,""
+"All time
+FEs","Player-specific FEs","acled_event_type1_dif3","win","win",0.79,0.36,0.06,1.52,34033,39,0.04,"*"

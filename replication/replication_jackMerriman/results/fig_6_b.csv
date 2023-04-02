@@ -1,0 +1,9 @@
+"ov","var","subset","x","coef","se","lwr","upr","n","df","p","star"
+"acled_event_type1_dif3","lose","Regular
+season","lose",0.57,0.26,0.05,1.08,34403,34401,0.03,"*"
+"acled_event_type1_dif3","lose","Champions
+League","lose",2.5,1.4,-0.25,5.24,1062,1060,0.07,"."
+"acled_event_type1_dif3","win","Regular
+season","win",0.56,0.27,0.04,1.09,32961,32959,0.04,"*"
+"acled_event_type1_dif3","win","Champions
+League","win",1.94,1.71,-1.42,5.3,1081,1079,0.26,""

@@ -1,0 +1,5 @@
+"ov","var","x","coef","se","lwr","upr","n","df","p","star"
+"acled_event_type1_dif3","lose:factor(team_CL == 1)FALSE","lose:factor(team_CL == 1)FALSE",0.7,0.32,0.07,1.33,35481,35477,0.03,"*"
+"acled_event_type1_dif3","lose:factor(team_CL == 1)TRUE","lose:factor(team_CL == 1)TRUE",0.61,0.37,-0.1,1.33,35481,35477,0.09,"."
+"acled_event_type1_dif3","win:factor(team_CL == 1)FALSE","win:factor(team_CL == 1)FALSE",0.35,0.36,-0.36,1.06,34033,34029,0.34,""
+"acled_event_type1_dif3","win:factor(team_CL == 1)TRUE","win:factor(team_CL == 1)TRUE",0.91,0.31,0.31,1.51,34033,34029,0,"*"

@@ -1,0 +1,61 @@
+"fe","ps","ov","var","bw","x","coef","se","lwr","upr","n","df","p","star"
+"Player
+FE","Player-specific FEs","Trust
+(leader)","lose","3","treat:lose",-0.34,0.21,-0.78,0.1,10097,22,0.12,""
+"Player
+FE","Player-specific FEs","Trust
+(leader)","win","3","treat:win",-0.37,0.18,-0.74,-0.01,9139,22,0.04,"*"
+"Year
+FE","Time FEs","Trust
+(leader)","lose","3","treat:lose",-0.85,0.25,-1.35,-0.35,10097,10084,0,"*"
+"Year
+FE","Time FEs","Trust
+(leader)","win","3","treat:win",-0.34,0.41,-1.15,0.47,9139,9128,0.41,""
+"Month
+FE","Time FEs","Trust
+(leader)","lose","3","treat:lose",-0.84,0.28,-1.39,-0.29,10097,10083,0,"*"
+"Month
+FE","Time FEs","Trust
+(leader)","win","3","treat:win",-0.56,0.41,-1.37,0.24,9139,9125,0.17,""
+"Week
+FE","Time FEs","Trust
+(leader)","lose","3","treat:lose",-1.28,0.34,-1.95,-0.6,10097,10066,0,"*"
+"Week
+FE","Time FEs","Trust
+(leader)","win","3","treat:win",-0.88,0.45,-1.75,0,9139,9109,0.05,"*"
+"Day of the Week
+FE","Time FEs","Trust
+(leader)","lose","3","treat:lose",-1.16,0.27,-1.68,-0.63,10097,10087,0,"*"
+"Day of the Week
+FE","Time FEs","Trust
+(leader)","win","3","treat:win",0.01,0.4,-0.77,0.8,9139,9129,0.97,""
+"All time
+FEs","Time FEs","Trust
+(leader)","lose","3","treat:lose",-0.85,0.27,-1.38,-0.32,10097,10044,0,"*"
+"All time
+FEs","Time FEs","Trust
+(leader)","win","3","treat:win",-0.71,0.35,-1.4,-0.02,9139,9088,0.04,"*"
+"Year
+FE","Player-specific FEs","Trust
+(leader)","lose","3","treat:lose",-0.35,0.21,-0.79,0.08,10097,22,0.11,""
+"Year
+FE","Player-specific FEs","Trust
+(leader)","win","3","treat:win",-0.37,0.18,-0.74,-0.01,9139,22,0.04,"*"
+"Month
+FE","Player-specific FEs","Trust
+(leader)","lose","3","treat:lose",-0.45,0.22,-0.91,0.01,10097,22,0.05,"."
+"Month
+FE","Player-specific FEs","Trust
+(leader)","win","3","treat:win",-0.45,0.19,-0.85,-0.06,9139,22,0.02,"*"
+"Week
+FE","Player-specific FEs","Trust
+(leader)","lose","3","treat:lose",-0.8,0.25,-1.32,-0.28,10097,22,0,"*"
+"Week
+FE","Player-specific FEs","Trust
+(leader)","win","3","treat:win",-0.41,0.38,-1.19,0.37,9139,22,0.28,""
+"Day of the Week
+FE","Player-specific FEs","Trust
+(leader)","lose","3","treat:lose",0.14,0.42,-0.73,1,10097,22,0.74,""
+"Day of the Week
+FE","Player-specific FEs","Trust
+(leader)","win","3","treat:win",-0.49,0.06,-0.62,-0.36,9139,22,0,"*"

@@ -1,0 +1,9 @@
+"player","ov","var","bw","x","coef","se","lwr","upr","n","df","p","star"
+"present","Trust
+(leader)","lose","3","treat:lose",-0.96,0.42,-1.78,-0.14,5709,5705,0.02,"*"
+"present","Trust
+(leader)","win","3","treat:win",0.09,0.16,-0.23,0.41,4755,4751,0.58,""
+"absent","Trust
+(leader)","lose","3","treat:lose",-0.95,0.67,-2.26,0.37,4388,4384,0.16,""
+"absent","Trust
+(leader)","win","3","treat:win",-0.23,0.56,-1.32,0.86,4384,4380,0.68,""

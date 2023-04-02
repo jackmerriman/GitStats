@@ -1,0 +1,27 @@
+[1] "Number of African players"
+[1] 990
+[1] "% of games with African players"
+[1] 79.2286
+[1] "Number of African players per game"
+[1] 1.982162
+[1] "% of African players by region"
+
+Southern Africa Northern Africa  Eastern Africa  Western Africa 
+       2.828283       10.404040       24.242424       62.525253 
+[1] "% of African players by leagues"
+
+Champions League          La Liga       Bundesliga   Premier League 
+       0.3030303       10.6060606       11.3131313       14.4444444 
+         Serie A          Ligue 1 
+      16.1616162       47.1717172 
+`summarise()` regrouping output by 'birth_country' (override with `.groups` argument)
+`summarise()` regrouping output by 'birth_country' (override with `.groups` argument)
+[1] "Density test p-values (loss and win)"
+[1] 0.13
+[1] 0.83
+`summarise()` regrouping output by 'country' (override with `.groups` argument)
+`summarise()` regrouping output by 'country' (override with `.groups` argument)
+Note: Using an external vector in selections is ambiguous.
+i Use `all_of(out.vars)` instead of `out.vars` to silence this message.
+i See <https://tidyselect.r-lib.org/reference/faq-external-vector.html>.
+This message is displayed once per session.

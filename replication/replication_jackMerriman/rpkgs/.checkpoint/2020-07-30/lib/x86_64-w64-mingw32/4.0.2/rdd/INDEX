@@ -1,0 +1,9 @@
+DCdensity               McCrary Sorting Test
+IKbandwidth             Imbens-Kalyanaraman Optimal Bandwidth
+                        Calculation
+RDestimate              Regression Discontinuity Estimation
+kernelwts               Kernel Weighting function
+plot.RD                 Plot of the Regression Discontinuity
+print.RD                Print the Regression Discontinuity
+rdd-package             Regression Discontinuity Estimation Package
+summary.RD              Summarizing Regression Discontinuity Designs

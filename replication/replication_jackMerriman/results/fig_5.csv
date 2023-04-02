@@ -1,0 +1,25 @@
+"data","ov","var","x","coef","se","lwr","upr","n","df","p","star"
+"All games","p_score","lose","lose",6.24,0.18,5.9,6.59,61476,61474,0,"*"
+"All games","rank_dif_p","lose","lose",12.98,0.61,11.79,14.16,59731,59729,0,"*"
+"All games","p_score","win","win",5.58,0.19,5.21,5.95,59447,59445,0,"*"
+"All games","rank_dif_p","win","win",-12.52,0.76,-14.01,-11.04,57336,57334,0,"*"
+"Close games","p_score","lose","lose",3.9,0.19,3.53,4.27,43984,43982,0,"*"
+"Close games","rank_dif_p","lose","lose",7.38,0.68,6.04,8.71,42686,42684,0,"*"
+"Close games","p_score","win","win",3.72,0.18,3.37,4.07,43084,43082,0,"*"
+"Close games","rank_dif_p","win","win",-7.41,0.77,-8.92,-5.9,41712,41710,0,"*"
+"All games
+(matched)","p_score","lose","lose",0.44,0.16,0.13,0.75,47819,47817,0.01,"*"
+"All games
+(matched)","rank_dif_p","lose","lose",1.02,0.63,-0.22,2.26,46300,46298,0.11,""
+"All games
+(matched)","p_score","win","win",0.35,0.18,0,0.7,46891,46889,0.05,"*"
+"All games
+(matched)","rank_dif_p","win","win",-0.64,0.57,-1.74,0.47,45181,45179,0.26,""
+"Close games
+(matched)","p_score","lose","lose",0.17,0.19,-0.21,0.55,35465,35463,0.39,""
+"Close games
+(matched)","rank_dif_p","lose","lose",-0.07,0.8,-1.63,1.5,34403,34401,0.93,""
+"Close games
+(matched)","p_score","win","win",-0.02,0.22,-0.45,0.41,34042,34040,0.92,""
+"Close games
+(matched)","rank_dif_p","win","win",0.29,0.77,-1.23,1.8,32961,32959,0.71,""

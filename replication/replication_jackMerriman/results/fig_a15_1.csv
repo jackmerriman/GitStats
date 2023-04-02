@@ -1,0 +1,13 @@
+"ov","var","bw","x","coef","se","lwr","upr","n","df","p","star"
+"Trust
+(leader)","treat:lose:factor(ntile(p_score, 3))1","3","treat:lose:factor(ntile(p_score, 3))1",-1.54,0.37,-2.26,-0.82,10097,10085,0,"*"
+"Trust
+(leader)","treat:lose:factor(ntile(p_score, 3))2","3","treat:lose:factor(ntile(p_score, 3))2",-0.78,0.71,-2.17,0.61,10097,10085,0.27,""
+"Trust
+(leader)","treat:lose:factor(ntile(p_score, 3))3","3","treat:lose:factor(ntile(p_score, 3))3",-1.43,0.28,-1.98,-0.88,10097,10085,0,"*"
+"Trust
+(leader)","treat:win:factor(ntile(p_score, 3))1","3","treat:win:factor(ntile(p_score, 3))1",-0.93,0.29,-1.49,-0.36,9139,9127,0,"*"
+"Trust
+(leader)","treat:win:factor(ntile(p_score, 3))2","3","treat:win:factor(ntile(p_score, 3))2",-1.12,0.35,-1.81,-0.42,9139,9127,0,"*"
+"Trust
+(leader)","treat:win:factor(ntile(p_score, 3))3","3","treat:win:factor(ntile(p_score, 3))3",0.48,0.78,-1.04,2,9139,9127,0.53,""

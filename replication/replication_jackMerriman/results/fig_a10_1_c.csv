@@ -1,0 +1,17 @@
+"ov","var","subset","x","coef","se","lwr","upr","n","df","p","star"
+"acled_event_type1_dif3","lose","Champions
+League","lose",2.26,1.38,-0.45,4.98,1058,1056,0.1,""
+"acled_event_type1_dif3","lose","Premier
+League","lose",0.23,0.46,-0.68,1.14,7499,7497,0.62,""
+"acled_event_type1_dif3","lose","La Liga","lose",0.13,0.55,-0.95,1.21,3311,3309,0.81,""
+"acled_event_type1_dif3","lose","Serie A","lose",1.54,0.88,-0.17,3.26,4092,4090,0.08,"."
+"acled_event_type1_dif3","lose","Bundesliga","lose",0.99,0.91,-0.78,2.77,3316,3314,0.27,""
+"acled_event_type1_dif3","lose","Ligue 1","lose",0.55,0.26,0.04,1.06,16205,16203,0.03,"*"
+"acled_event_type1_dif3","win","Champions
+League","win",1.94,1.71,-1.42,5.3,1081,1079,0.26,""
+"acled_event_type1_dif3","win","Premier
+League","win",0.39,0.79,-1.16,1.95,7375,7373,0.62,""
+"acled_event_type1_dif3","win","La Liga","win",1.39,1.41,-1.36,4.15,3062,3060,0.32,""
+"acled_event_type1_dif3","win","Serie A","win",1.04,0.6,-0.14,2.21,4048,4046,0.08,"."
+"acled_event_type1_dif3","win","Bundesliga","win",1.01,1.07,-1.08,3.1,3037,3035,0.34,""
+"acled_event_type1_dif3","win","Ligue 1","win",0.29,0.24,-0.18,0.75,15430,15428,0.23,""

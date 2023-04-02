@@ -1,0 +1,7 @@
+"ov","var","x","coef","se","lwr","upr","n","df","p","star","score_dif"
+"acled_event_type1_dif3","score_dif2-3","score_dif2-3",0.58,0.28,0.04,1.12,47810,47806,0.04,"*",-3
+"acled_event_type1_dif3","score_dif2-2","score_dif2-2",0.15,0.3,-0.44,0.73,47810,47806,0.62,"",-2
+"acled_event_type1_dif3","score_dif2-1","score_dif2-1",0.65,0.22,0.23,1.08,47810,47806,0,"*",-1
+"acled_event_type1_dif3","score_dif21","score_dif21",0.3,0.24,-0.16,0.76,46891,46887,0.21,"",1
+"acled_event_type1_dif3","score_dif22","score_dif22",-0.16,0.3,-0.76,0.44,46891,46887,0.6,"",2
+"acled_event_type1_dif3","score_dif23","score_dif23",0.34,0.42,-0.48,1.17,46891,46887,0.41,"",3

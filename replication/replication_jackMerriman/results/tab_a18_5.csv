@@ -1,0 +1,5 @@
+"ov","var","bw","x","coef","se","lwr","upr","n","df","p","star"
+"Trust
+(leader)","lose","3","treat:lose",-1.01,0.32,-1.64,-0.39,14219,14215,0,"*"
+"Trust
+(leader)","win","3","treat:win",-0.53,0.26,-1.03,-0.03,13307,13303,0.04,"*"

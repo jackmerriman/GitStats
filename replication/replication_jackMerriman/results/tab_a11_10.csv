@@ -1,0 +1,3 @@
+"ov","var","x","coef","se","lwr","upr","n","df","p","star"
+"acled_event_type1_dif3","lose","lose",0.61,0.19,0.24,0.97,43984,43981,0,"*"
+"acled_event_type1_dif3","win","win",0.41,0.24,-0.05,0.88,43084,43081,0.08,"."

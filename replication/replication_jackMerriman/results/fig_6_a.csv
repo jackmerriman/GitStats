@@ -1,0 +1,7 @@
+"ov","var","x","coef","se","lwr","upr","n","df","p","star"
+"acled_event_type1_dif3","lose:factor(ntile(season_appearance, 3))1","lose:factor(ntile(season_appearance, 3))1",0.03,0.37,-0.69,0.74,35465,35459,0.94,""
+"acled_event_type1_dif3","lose:factor(ntile(season_appearance, 3))2","lose:factor(ntile(season_appearance, 3))2",1.02,0.41,0.22,1.82,35465,35459,0.01,"*"
+"acled_event_type1_dif3","lose:factor(ntile(season_appearance, 3))3","lose:factor(ntile(season_appearance, 3))3",0.83,0.38,0.09,1.57,35465,35459,0.03,"*"
+"acled_event_type1_dif3","win:factor(ntile(season_appearance, 3))1","win:factor(ntile(season_appearance, 3))1",-0.16,0.37,-0.89,0.56,34042,34036,0.66,""
+"acled_event_type1_dif3","win:factor(ntile(season_appearance, 3))2","win:factor(ntile(season_appearance, 3))2",0.46,0.29,-0.11,1.03,34042,34036,0.11,""
+"acled_event_type1_dif3","win:factor(ntile(season_appearance, 3))3","win:factor(ntile(season_appearance, 3))3",1.5,0.57,0.38,2.62,34042,34036,0.01,"*"

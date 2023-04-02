@@ -1,0 +1,7 @@
+"ov","var","bw","x","coef","se","lwr","upr","n","df","p","star"
+"Future Economy","lose","3","treat:lose",-0.94,0.28,-1.61,-0.27,9424,9420,0,"*"
+"Current Economy","lose","3","treat:lose",-0.81,0.33,-1.51,-0.11,10263,10259,0.02,"*"
+"Past Economy","lose","3","treat:lose",-0.65,0.3,-1.23,-0.07,10247,10243,0.03,"*"
+"Future Economy","win","3","treat:win",0.15,0.34,-0.52,0.83,8523,8519,0.66,""
+"Current Economy","win","3","treat:win",0.43,0.32,-0.34,1.2,9266,9262,0.54,""
+"Past Economy","win","3","treat:win",0.17,0.2,-0.26,0.6,9247,9243,0.61,""

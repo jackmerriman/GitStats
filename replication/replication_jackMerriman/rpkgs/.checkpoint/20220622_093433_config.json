@@ -1,0 +1,12 @@
+{
+  "library": "C:/Users/kyosu/Dropbox/Soccer/submission/202201 IO/replication/rpkgs/.checkpoint/2020-07-30/lib/x86_64-w64-mingw32/4.0.2",
+  "cache_dir": "C:\\Users\\kyosu\\AppData\\Local\\Temp\\RtmpyMRxI5\\file39c0784f3f09",
+  "package_cache_dir": null,
+  "metadata_cache_dir": "C:\\Users\\kyosu\\AppData\\Local\\Temp\\RtmpyMRxI5\\file39c02289289c",
+  "platforms": ["windows", "source"],
+  "cran-mirror": "https://mran.microsoft.com/snapshot/2020-07-30",
+  "dependencies": ["Depends", "Imports", "LinkingTo"],
+  "r-versions": "4.0.2",
+  "build-vignettes": false,
+  "metadata-update-after": 24
+}

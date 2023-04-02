@@ -1,0 +1,7 @@
+"window.size","ov","var","x","coef","se","lwr","upr","n","df","p","star"
+1,"acled_event_type1_dif1","lose","lose",0.67,0.35,-0.01,1.35,35481,35479,0.05,"."
+1,"acled_event_type1_dif1","win","win",0.59,0.4,-0.2,1.38,34033,34031,0.14,""
+2,"acled_event_type1_dif2","lose","lose",0.8,0.22,0.37,1.23,35481,35479,0,"*"
+2,"acled_event_type1_dif2","win","win",0.8,0.38,0.06,1.55,34033,34031,0.04,"*"
+3,"acled_event_type1_dif3","lose","lose",0.67,0.24,0.19,1.15,35481,35479,0.01,"*"
+3,"acled_event_type1_dif3","win","win",0.62,0.29,0.05,1.19,34033,34031,0.03,"*"

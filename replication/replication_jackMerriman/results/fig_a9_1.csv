@@ -1,0 +1,7 @@
+"ov","var","x","coef","se","lwr","upr","n","df","p","star"
+"acled_event_type1_dif3","lose:factor(ntile(p_score, 3))1","lose:factor(ntile(p_score, 3))1",0.47,0.24,0.01,0.94,35481,35475,0.05,"*"
+"acled_event_type1_dif3","lose:factor(ntile(p_score, 3))2","lose:factor(ntile(p_score, 3))2",0.7,0.45,-0.17,1.58,35481,35475,0.12,""
+"acled_event_type1_dif3","lose:factor(ntile(p_score, 3))3","lose:factor(ntile(p_score, 3))3",0.83,0.46,-0.06,1.72,35481,35475,0.07,"."
+"acled_event_type1_dif3","win:factor(ntile(p_score, 3))1","win:factor(ntile(p_score, 3))1",0.11,0.46,-0.78,1.01,34033,34027,0.8,""
+"acled_event_type1_dif3","win:factor(ntile(p_score, 3))2","win:factor(ntile(p_score, 3))2",0.81,0.51,-0.19,1.81,34033,34027,0.11,""
+"acled_event_type1_dif3","win:factor(ntile(p_score, 3))3","win:factor(ntile(p_score, 3))3",0.94,0.28,0.39,1.5,34033,34027,0,"*"
