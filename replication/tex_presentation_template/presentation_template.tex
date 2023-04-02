@@ -1,0 +1,186 @@
+\documentclass{beamer}
+% There are many different themes available for Beamer. A comprehensive
+% list with examples is given here:
+% http://deic.uab.es/~iblanes/beamer_gallery/index_by_theme.html
+% You can uncomment the themes below if you would like to use a different
+% one:
+%\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{Frankfurt}
+%\usetheme{boxes}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+\usetheme{focus}
+\usepackage{hologo}
+
+\usepackage{tikz}
+\usepackage{url}
+\usepackage{color}
+\usepackage{longtable}
+\usepackage{booktabs}
+\usetikzlibrary{shapes.geometric, arrows, positioning, calc}
+\tikzstyle{startStop} = [rectangle, rounded corners, minimum width=7cm, text width=11cm, text centered, minimum height=.5cm, draw=black]
+\tikzstyle{io} = [circle, rounded corners, minimum width=1cm, text width=1.5cm, minimum height=.1, text centered, draw=black]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+\usepackage{pdfpages}
+\usepackage{graphicx}   % need for figures
+\usepackage{adjustbox}
+\usepackage{fontawesome}
+\usepackage[absolute,overlay]{textpos}
+%CHANGES COLOR TO GREEN
+\usepackage{listings} 
+\usepackage{color}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\scriptsize,
+	breakatwhitespace=true,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=false,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+\hypersetup{
+	colorlinks = true,
+	linkcolor=brickred,   % color of internal links
+	citecolor=brickred,   % color of links to bibliography
+	urlcolor=brickred,    % color of external links
+	%	pagebackref=true,
+	%	implicit=false,
+	%	bookmarks=true,
+	bookmarksopen=true,
+	pdfdisplaydoctitle=true
+}
+\lstset{style=mystyle}
+\definecolor{brickred}{rgb}{0.8, 0.25, 0.33}
+\definecolor{mygreen}{cmyk}{0.82,0.11,1,0.25}
+\setbeamertemplate{blocks}[rounded][shadow=true]
+\addtobeamertemplate{block begin}{\pgfsetfillopacity{0.8}}{\pgfsetfillopacity{1}}
+\setbeamercolor{structure}{fg=mygreen}
+\setbeamercolor*{block title example}{fg=white,
+	bg= white}
+\setbeamercolor*{block body example}{fg= white,
+	bg= white}
+\usepackage[english]{babel}
+\usepackage{hyperref}
+\usepackage{dcolumn}
+\usepackage{adjustbox}
+\usepackage{multicol}
+\usepackage{adjustbox}
+\usepackage{amsmath}
+\usepackage{tikz}
+\usepackage[all,cmtip]{xy}
+\tikzstyle{largeSquare} = [rectangle, rounded corners, minimum width=7cm, text width=9cm, minimum height=.5cm, draw=black]
+\usepackage{tikzsymbols}
+
+\usetikzlibrary{shapes.geometric, arrows}
+\tikzstyle{arrow}=[thick,->,>=stealth]
+\beamertemplatenavigationsymbolsempty
+\usepackage{subfloat}
+\setbeamertemplate{headline}{}
+\newcommand{\speechthis}[2]{
+	\tikz[remember picture,baseline]{\node[anchor=base,inner sep=0,outer sep=0]
+		(#1) {\underline{#1}};\node[overlay,ellipse callout,fill=blue!50] 
+		at ($(#1.north)+(-.5cm,0.8cm)$) {#2};}
+}
+
+\setbeamercolor{button}{bg=mygreen,fg=white}
+
+\setbeamercovered{invisible}
+
+\usecolortheme{beaver}
+
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+\lstdefinestyle{mystyle}{
+	backgroundcolor=\color{backcolour},   
+	commentstyle=\color{codegreen},
+	keywordstyle=\color{magenta},
+	numberstyle=\tiny\color{codegray},
+	stringstyle=\color{codepurple},
+	basicstyle=\footnotesize,
+	breakatwhitespace=false,         
+	breaklines=true,                 
+	captionpos=b,                    
+	keepspaces=true,                 
+	numbers=left,                    
+	numbersep=5pt,                  
+	showspaces=false,                
+	showstringspaces=false,
+	showtabs=false,                  
+	tabsize=2
+}
+\lstset{style=mystyle}
+\newcommand{\Sref}[1]{Section~\ref{#1}}
+\newtheorem{hyp}{Hypothesis}
+
+\title{Example Presentation}
+\author{Author Name}
+\subtitle{Applied Statistical Analysis II}
+\date{Spring 2023}
+\begin{document}
+	\frame{\titlepage}
+
+	\begin{frame}{Background/introduction}
+		
+		\begin{block}
+			
+			\begin{itemize}
+				
+				\item Introduction \vspace{.25cm}
+				
+			\end{itemize}
+		\end{block}
+	\end{frame}
+	
+	\begin{frame}{Table}
+
+		\begin{table}[ht]
+			\caption{Title of table.} 
+			\centering
+			\begin{tabular}{rrrrrrrrrrr}
+				\hline
+				Number of Children & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\ 
+				\hline
+				Democrat &  12 &  13 &  33 &  24 &  15 &   4 &   0 &   1 &   0 &   1 \\ 
+				Republican &  13 &   8 &  44 &  30 &  15 &   7 &   3 &   0 &   1 &   0 \\ 
+				\\[-1.8ex]\hline 
+				\hline \\[-1.8ex] 
+				Number of girls & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 \\ 
+				\hline
+				Democrat &  26 &  35 &  29 &  10 &   1 &   2 &-&-&-&-  \\ 
+				Republican &  36 &  43 &  31 &   9 &   2 &   0 &-&-&-&-\\
+				\hline
+			\end{tabular}
+		\end{table}
+	\end{frame}
+	
+	\begin{frame}{Figure}
+		
+		\includegraphics[width=.99\textwidth]{cases_density.pdf}
+		
+	\end{frame}
+	
+\end{document}
